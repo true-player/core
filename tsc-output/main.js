@@ -1,5 +1,3 @@
-// src/main.js
-import foo from "./foo";
-export default function () {
-    console.log(foo);
+export default function callMe() {
+    console.log("Hello World from TruePlayer");
 }

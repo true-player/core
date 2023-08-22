@@ -1,10 +1,10 @@
 {
-  "name": "trueplayer",
+  "name": "@trueplayer/core",
   "version": "0.0.1",
   "description": "Advanced video player for the web,",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && tsc && rollup -c",
+    "build": "rimraf dist && rimraf tsc-output && tsc && rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

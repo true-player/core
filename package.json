@@ -1,0 +1,32 @@
+{
+  "name": "trueplayer",
+  "version": "0.0.1",
+  "description": "Advanced video player for the web,",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/true-player/core.git"
+  },
+  "keywords": [
+    "video",
+    "video-player",
+    "javascript",
+    "player"
+  ],
+  "author": "Moein Alizadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/true-player/core/issues",
+    "email": "truemoein@gmail.com"
+  },
+  "homepage": "https://github.com/true-player/core#readme",
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "rollup": "^3.28.1",
+    "typescript": "^5.1.6"
+  }
+}

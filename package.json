@@ -4,7 +4,7 @@
   "description": "Advanced video player for the web,",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && rimraf tsc-output && tsc && rollup -c",
+    "build": "rimraf dist && tsc && rollup -c",
     "dev": "rimraf dist && rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

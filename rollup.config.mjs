@@ -1,9 +1,13 @@
 // rollup.config.mjs
+import typescript from "@rollup/plugin-typescript";
+
 export default {
-  input: "tsc-output/main.js",
+  input: "src/core/index.ts",
   output: {
     file: "dist/index.js",
     format: "umd",
-    name: "trueplayer",
+    name: "TruePlayer",
   },
+
+  plugins: [typescript()],
 };

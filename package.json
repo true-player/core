@@ -1,6 +1,6 @@
 {
   "name": "@trueplayer/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Advanced video player for the web,",
   "main": "dist/index.js",
   "scripts": {

@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && rimraf tsc-output && tsc && rollup -c",
+    "dev": "rimraf dist && rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,8 +26,11 @@
   },
   "homepage": "https://github.com/true-player/core#readme",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.2",
+    "http-server": "^14.1.1",
     "rimraf": "^5.0.1",
     "rollup": "^3.28.1",
+    "tslib": "^2.6.2",
     "typescript": "^5.1.6"
   }
 }

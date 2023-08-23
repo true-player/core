@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="./dist/index.js"></script>
+  <title>TruePlayer Playground!</title>
+</head>
+
+<body>
+
+  <video id="trueplayer"
+    src="https://file-examples.com/storage/fe3b4f721f64dfeffa49f02/2017/04/file_example_MP4_640_3MG.mp4"
+    controls></video>
+
+
+
+  <script>
+    new TruePlayer('trueplayer', {
+      width: 400,
+      height: 400,
+      autoplay: true,
+    })
+  </script>
+</body>
+
+</html>
